@@ -1,7 +1,7 @@
 # [black-dashboard-angular]
 black-dashboard-angular is a Angular Template like CRM
 
-# [Argon Dashboard Angular](https://github.com/ravatsindhav/black-dashboard-angular/?ref=ada-github-readme)]
+# [Argon Dashboard Angular][(https://github.com/ravatsindhav/black-dashboard-angular/?ref=ada-github-readme)]
 
  ![version](https://img.shields.io/badge/version-1.2.0-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/argon-dashboard-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-dashboard-angular/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/argon-dashboard-angular.svg?maxAge=2592000)](https://github.com/creativetimofficial/argon-dashboard-angular/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
