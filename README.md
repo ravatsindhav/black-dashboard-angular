@@ -1,6 +1,5 @@
-#black-dashboard-angular
+# [black-dashboard-angular]
 black-dashboard-angular is a Angular Template like CRM
-
 
 # [Argon Dashboard Angular](https://github.com/ravatsindhav/black-dashboard-angular/?ref=ada-github-readme)]
 
@@ -237,3 +236,4 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+
