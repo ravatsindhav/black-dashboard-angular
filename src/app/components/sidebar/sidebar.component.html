@@ -1,0 +1,57 @@
+<div class="logo">
+  <a href="https://www.creative-tim.com?ref=bda-sidebar-logo" class="simple-text logo-mini">
+    <div class="logo-img">
+      <img src="./assets/img/angular2-logo-white.png" />
+    </div>
+  </a>
+  <a href="https://www.creative-tim.com?ref=bda-sidebar-logo" class="simple-text logo-normal">
+    My App
+  </a>
+
+</div>
+
+<div class="sidebar-wrapper">
+  <ul class="nav" *ngFor="let menuItem of menuItems">
+    <li routerLinkActive="active" *ngIf="!menuItem.children" class="{{ menuItem.class }} nav-item"
+      style="font-size:15px;margin-top: -19px !important;">
+      <a [routerLink]="[menuItem.path]" style="font-size: 15px;">
+        <i class="tim-icons  {{ menuItem.icon }}"></i>
+        <span>{{ menuItem.title }}</span>
+      </a>
+    </li>
+
+    <li *ngIf="menuItem.children" class="{{ menuItem.class }} nav-item" style="margin-top: -19px !important;">
+      <a (click)="menuItem.show=!menuItem.show" style="font-size: 15px;">
+        <i class="tim-icons  {{ menuItem.icon }}"></i>
+        <span>{{ menuItem.title }}</span>
+        <span *ngIf="!menuItem.show" class="tim-icons icon-minimal-right"
+          style="font-size:10px;float: right;margin-top: 8px;"></span>
+        <span *ngIf="menuItem.show" class="tim-icons icon-minimal-down"
+          style="font-size:10px;float: right;margin-top: 8px;"></span>
+        <!-- <i class="icon-minimal-down"></i> -->
+      </a>
+      <ng-container *ngIf="menuItem.show">
+        <ul class="nav ml-5" *ngFor="let child of menuItem.children">
+          <li routerLinkActive="active" style="margin-top: -19px !important;">
+            <a [routerLink]="[child.path]" style="font-size: 12px;">
+              <!-- <i class="tim-icons  {{ menuItem.icon }}"></i> -->
+              <span>{{ child.title }}</span>
+            </a>
+          </li>
+
+
+        </ul>
+      </ng-container>
+
+    </li>
+  </ul>
+
+  <ul class="nav">
+    <li class="nav-item version text-center" style="margin-left: -9px;">
+        <span class="badge badge-pill badge-secondary" style="font-size:12px !important;color:black;">1.0.0
+        </span>
+        <span class="ml-1" style="font-size:50px !important;color:green;">.</span>
+    </li>
+  </ul>
+
+</div>
